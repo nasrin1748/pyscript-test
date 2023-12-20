@@ -15,6 +15,9 @@
       </py-config>
       <py-script>
 from main import subtract
+import os
+os.chdir('/tmp')
+print(os.getcwd())
 print(subtract(8, 4))
       </py-script>
   </body>
